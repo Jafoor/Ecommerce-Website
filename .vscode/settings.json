@@ -1,3 +1,8 @@
 {
-    "html.format.wrapAttributes": "force-expand-multiline"
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#3F0D76",
+        "titleBar.activeBackground": "#5912A5",
+        "titleBar.activeForeground": "#FDFCFF"
+    }
 }
