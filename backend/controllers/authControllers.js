@@ -10,7 +10,9 @@ class authControllers {
     admin_login = async (req, res) => {
         const { email, password } = req.body
         try {
+            console.log(email, password);
             const admin = await adminModel.findOne({ email }).select('+password')
+            console.log(admin);
             if (admin) {
                 const match = await bcrpty.compare(password, admin.password)
                 if (match) {
@@ -154,11 +156,11 @@ class authControllers {
 
     logout = async (req, res) => {
         try {
-            res.cookie('accessToken',null,{
-                expires : new Date(Date.now()),
-                httpOnly : true
+            res.cookie('accessToken', null, {
+                expires: new Date(Date.now()),
+                httpOnly: true
             })
-            responseReturn(res,200,{message : 'logout success'})
+            responseReturn(res, 200, { message: 'logout success' })
         } catch (error) {
             responseReturn(res, 500, { error: error.message })
         }

@@ -47,7 +47,7 @@ const Headers = () => {
                         <ul className='flex justify-start items-center gap-8'>
                             <li className='flex relative justify-center items-center gap-2 text-sm after:absolute after:h-[18px] after:w-[1px] after:bg-[#afafaf] after:-right-[16px]'>
                                 <span><GrMail /></span>
-                                <span>sheikhfarid@gmail.com</span>
+                                <span>abujaformdsaleh.2020@gmail.com</span>
                             </li>
                             <span>Multi vendor ecommerce</span>
                         </ul>
@@ -195,14 +195,14 @@ const Headers = () => {
                                 <span><IoIosCall /></span>
                             </div>
                             <div className='flex justify-end flex-col gap-1'>
-                                <h2 className='text-sm font-medium text-slate-700'>+8803242343243</h2>
-                                <span className='text-xs'>support 33/45 time</span>
+                                <h2 className='text-sm font-medium text-slate-700'>+8801846825017</h2>
+                                <span className='text-xs'>support 24 hours</span>
                             </div>
                         </div>
                         <ul className='flex flex-col justify-start items-start gap-3 text-[#1c1c1c]'>
                             <li className='flex justify-start items-center gap-2  text-sm'>
                                 <span><GrMail /></span>
-                                <span>learnwithproject@gmail.com</span>
+                                <span>abujaformdsaleh.2020@gmail.com</span>
                             </li>
                             <span className='text-sm'>Multi vendor ecommerce</span>
                         </ul>
@@ -258,8 +258,8 @@ const Headers = () => {
                                         <span><IoIosCall /></span>
                                     </div>
                                     <div className='flex justify-end flex-col gap-1'>
-                                        <h2 className='text-md font-medium text-slate-700'>+8803242343243</h2>
-                                        <span className='text-sm'>support 33/45 time</span>
+                                        <h2 className='text-md font-medium text-slate-700'>+8801846825017</h2>
+                                        <span className='text-sm'>support 24 hours</span>
                                     </div>
                                 </div>
                             </div>
